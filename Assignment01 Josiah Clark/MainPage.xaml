@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment01_Josiah_Clark.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="67">
+         
+            <Label
+               Text="Tip Calculator"
+                FontSize="64"
+                HorizontalTextAlignment="Center"
+                />
+            <Entry x:Name="BillEntry" Placeholder="Enter Bill Here" WidthRequest="300"/>
+            <Button Text="Click to submit" Clicked="OnClicked" WidthRequest="200" />
+            <Label
+            Text=""
+            x:Name ="Result"
+            FontSize="24"
+            HorizontalTextAlignment="Center"
+            />
+            <Label
+            Text=""
+            x:Name ="Result2"
+            FontSize="24"
+            HorizontalTextAlignment="Center"
+            />
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
+    
